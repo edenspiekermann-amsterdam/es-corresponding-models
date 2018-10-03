@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver
+  namespace: es-corresponding-models
+spec:
+  selector:
+    matchLabels:
+      tier: webserver
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        tier: webserver
+    spec:
+      imagePullSecrets:
+      - name: regcred-google
+      containers:
+      - name: web
+        image: 'gcr.io/espi-repo/es-corresponding-models:v0.0.1'
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "60Mi"
+            cpu: "60m"
+          limits:
+            memory: "1024Mi"
+            cpu: "400m"
+
