@@ -2,3 +2,8 @@
 
 TBW
 
+```
+contentful login
+contentful space use
+contentful space environment use
+```
