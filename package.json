@@ -2,7 +2,7 @@
   "name": "es-corresponding-models",
   "docker-repo": "espi-repo",
   "kube-webserver-manifest": "./kubernetes/production-webserver-deployment.yml",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Corresponding models",
   "engines": {
     "node": "8.9.1"
