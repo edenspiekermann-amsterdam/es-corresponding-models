@@ -1,7 +1,7 @@
 import { Component } from 'react'
 
 import { SectionOpenerBasicView } from './section-opener-basic-view'
-import { SectionOpenerAntoherView } from './section-opener-cases-view'
+import { SectionOpenerAntoherView } from './section-opener-another-view'
 
 import * as VARIATIONS from './section-opener-contentful-variations'
 
