@@ -17,7 +17,7 @@ spec:
       - name: regcred-google
       containers:
       - name: web
-        image: 'gcr.io/espi-repo/es-corresponding-models:v0.0.1'
+        image: 'gcr.io/espi-repo/es-corresponding-models:v0.0.2'
         ports:
         - containerPort: 8080
         resources:
