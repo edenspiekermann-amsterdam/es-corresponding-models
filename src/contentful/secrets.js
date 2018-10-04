@@ -1,10 +1,10 @@
 // These secrets are not kept separate from the repo because these secrets
 // are bundled in the client js. This cannot be changed without changing the
 // current architecture.
+// These tokens are used to read content from the contentful space
 
 module.exports = {
-  CONTENTFUL_SPACE_ID: 'o06ozhx2fo52',
-  CONTENTFUL_DELIVERY_TOKEN:
-    'b9dee39e721d0f6e69132cbbe104441cfa5cf8d6844d1b4cf6c5b0459d9c45d5',
-  ENVIRONMENT: 'development',
+  CONTENTFUL_SPACE_ID: '0npdwadkswvd',
+  CONTENTFUL_DELIVERY_TOKEN: 'b70c8f5c96df5390488a0e28690390e55399696db16f0b94e4f5d492f07eb126',
+  ENVIRONMENT: 'master',
 }

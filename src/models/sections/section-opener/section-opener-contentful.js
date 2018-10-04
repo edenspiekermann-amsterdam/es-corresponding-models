@@ -9,6 +9,8 @@
  * Fields
  * ======
  * title (Symbol)
+ * variation (Symbol)
+ * navigation (Reference to One)
  */
 
 const migrations = require('../../../contentful/migrations')
@@ -32,6 +34,41 @@ module.exports = async function (migration) {
           {
             helpText: 'Title used by Contentful'
           }
+        ],
+      },
+      variation: {
+        specs: {
+          name: 'Opener variation',
+          type: 'Symbol',
+          required: true,
+          validations: [
+            {
+              in: Object.values(VARIATIONS),
+            },
+          ],
+        },
+        widgetId: 'dropdown',
+        settings: {
+          helpText: 'Select section-opener',
+        },
+      },
+      navigation: {
+        specs: {
+          name: 'Navigation',
+          required: false,
+          type: 'Link',
+          linkType: 'Entry',
+          validations: [
+            {
+              linkContentType: ['partNavigation'],
+            },
+          ],
+        },
+        widgetId: 'entryLinkEditor',
+        settings: [
+          {
+            helpText: 'Select the part-navigation for this section',
+          },
         ],
       },
     },

@@ -1,17 +1,11 @@
 import * as contentful from '../../../contentful/contentful';
-import { StickyContainer, Sticky } from 'react-sticky';
 import React, { Component, Fragment } from 'react';
 import styled, { css } from 'styled-components';
-import { themeGet } from 'styled-system';
-import { Box, Column, Row } from '../../../app/layout/index';
+import { H1 } from '../../../app/typography'
 import { Link as NextLink } from '../../../router/next-routes';
 
 const MenuContainer = styled.nav`
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1000;
+  position: relative;
 `;
 
 const MenuToggle = styled.button`
@@ -79,18 +73,15 @@ export class PartNavigationView extends Component {
     ));
 
     return (
-      <StickyContainer>
-        <Sticky topOffset={80}>
-          {({ isSticky }) => (
-            <MenuContainer>
-              <MenuToggle aria-pressed={this.state.isActive} onClick={this.toggleIsActive}>
-                {this.state.isActive ? 'Close' : 'Open'} menu
-              </MenuToggle>
-              <MenuList aria-expanded={this.state.isActive}>{linkList}</MenuList>
-            </MenuContainer>
-          )}
-        </Sticky>
-      </StickyContainer>
+      <Fragment>
+        <H1>PartNavigation</H1>
+        <MenuContainer>
+          <MenuToggle aria-pressed={this.state.isActive} onClick={this.toggleIsActive}>
+            {this.state.isActive ? 'Close' : 'Open'} menu
+          </MenuToggle>
+          <MenuList aria-expanded={this.state.isActive}>{linkList}</MenuList>
+        </MenuContainer>
+      </Fragment>
     );
   }
 }

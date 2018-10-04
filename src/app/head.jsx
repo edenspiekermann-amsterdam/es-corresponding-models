@@ -4,6 +4,5 @@ import Head from 'next/head'
   export const AppHead = props => (
   <Head>
     <title>{props.title}</title>
-    <meta name="description" content={this.description} />
   </Head>
 )
