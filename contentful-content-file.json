@@ -6,13 +6,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "layout",
         "type": "ContentType",
-        "createdAt": "2018-10-04T08:56:25.591Z",
-        "updatedAt": "2018-10-04T10:35:53.473Z",
+        "createdAt": "2018-10-04T12:41:42.585Z",
+        "updatedAt": "2018-10-04T12:45:00.211Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -24,28 +24,28 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedCounter": 25,
-        "version": 50,
+        "publishedCounter": 14,
+        "version": 28,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedVersion": 49,
-        "firstPublishedAt": "2018-10-04T08:56:25.985Z",
-        "publishedAt": "2018-10-04T10:35:53.473Z"
+        "publishedVersion": 27,
+        "firstPublishedAt": "2018-10-04T12:41:42.828Z",
+        "publishedAt": "2018-10-04T12:45:00.211Z"
       },
       "displayField": "title",
       "name": "Layout",
@@ -149,13 +149,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "partGlobals",
         "type": "ContentType",
-        "createdAt": "2018-10-04T08:56:34.953Z",
-        "updatedAt": "2018-10-04T10:35:38.768Z",
+        "createdAt": "2018-10-04T12:41:51.270Z",
+        "updatedAt": "2018-10-04T12:45:02.308Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -167,14 +167,14 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedCounter": 3,
@@ -183,12 +183,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedVersion": 5,
-        "firstPublishedAt": "2018-10-04T08:56:35.239Z",
-        "publishedAt": "2018-10-04T10:35:38.768Z"
+        "firstPublishedAt": "2018-10-04T12:41:51.596Z",
+        "publishedAt": "2018-10-04T12:45:02.308Z"
       },
       "displayField": "siteName",
       "name": "Part Globals",
@@ -253,13 +253,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "partNavigation",
         "type": "ContentType",
-        "createdAt": "2018-10-04T08:56:37.240Z",
-        "updatedAt": "2018-10-04T10:35:40.327Z",
+        "createdAt": "2018-10-04T12:41:52.869Z",
+        "updatedAt": "2018-10-04T12:45:01.565Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -271,14 +271,14 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedCounter": 3,
@@ -287,12 +287,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedVersion": 5,
-        "firstPublishedAt": "2018-10-04T08:56:37.456Z",
-        "publishedAt": "2018-10-04T10:35:40.327Z"
+        "firstPublishedAt": "2018-10-04T12:41:53.279Z",
+        "publishedAt": "2018-10-04T12:45:01.565Z"
       },
       "displayField": "title",
       "name": "Part Navigation",
@@ -350,13 +350,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "sectionFooter",
         "type": "ContentType",
-        "createdAt": "2018-10-04T08:56:38.825Z",
-        "updatedAt": "2018-10-04T10:35:42.437Z",
+        "createdAt": "2018-10-04T12:41:54.811Z",
+        "updatedAt": "2018-10-04T12:45:01.171Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -368,14 +368,14 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedCounter": 3,
@@ -384,12 +384,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedVersion": 5,
-        "firstPublishedAt": "2018-10-04T08:56:39.363Z",
-        "publishedAt": "2018-10-04T10:35:42.437Z"
+        "firstPublishedAt": "2018-10-04T12:41:55.094Z",
+        "publishedAt": "2018-10-04T12:45:01.171Z"
       },
       "displayField": "title",
       "name": "Section Footer",
@@ -437,13 +437,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "sectionOpener",
         "type": "ContentType",
-        "createdAt": "2018-10-04T08:56:40.923Z",
-        "updatedAt": "2018-10-04T10:35:46.249Z",
+        "createdAt": "2018-10-04T12:41:56.660Z",
+        "updatedAt": "2018-10-04T12:45:00.647Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -455,14 +455,14 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedCounter": 5,
@@ -471,12 +471,12 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "publishedVersion": 9,
-        "firstPublishedAt": "2018-10-04T08:56:41.142Z",
-        "publishedAt": "2018-10-04T10:35:46.249Z"
+        "firstPublishedAt": "2018-10-04T12:41:56.898Z",
+        "publishedAt": "2018-10-04T12:45:00.647Z"
       },
       "displayField": "title",
       "name": "Section Opener",
@@ -537,24 +537,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "0npdwadkswvd",
+            "id": "g2qyx4w0emn3",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 50,
-        "createdAt": "2018-10-04T08:56:26.125Z",
+        "version": 28,
+        "createdAt": "2018-10-04T12:41:43.039Z",
         "createdBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-10-04T10:35:54.003Z",
+        "updatedAt": "2018-10-04T12:45:03.091Z",
         "updatedBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
@@ -625,24 +625,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "0npdwadkswvd",
+            "id": "g2qyx4w0emn3",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 4,
-        "createdAt": "2018-10-04T08:56:35.442Z",
+        "version": 5,
+        "createdAt": "2018-10-04T12:41:51.739Z",
         "createdBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-10-04T10:35:39.021Z",
+        "updatedAt": "2018-10-04T12:45:03.341Z",
         "updatedBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
@@ -683,24 +683,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "0npdwadkswvd",
+            "id": "g2qyx4w0emn3",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 6,
-        "createdAt": "2018-10-04T08:56:37.626Z",
+        "createdAt": "2018-10-04T12:41:53.453Z",
         "createdBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-10-04T10:35:41.009Z",
+        "updatedAt": "2018-10-04T12:45:03.103Z",
         "updatedBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
@@ -744,24 +744,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "0npdwadkswvd",
+            "id": "g2qyx4w0emn3",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 4,
-        "createdAt": "2018-10-04T08:56:39.546Z",
+        "version": 5,
+        "createdAt": "2018-10-04T12:41:55.323Z",
         "createdBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-10-04T10:35:42.625Z",
+        "updatedAt": "2018-10-04T12:45:03.270Z",
         "updatedBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
@@ -798,24 +798,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "0npdwadkswvd",
+            "id": "g2qyx4w0emn3",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 10,
-        "createdAt": "2018-10-04T08:56:41.323Z",
+        "createdAt": "2018-10-04T12:41:57.119Z",
         "createdBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-10-04T10:35:46.743Z",
+        "updatedAt": "2018-10-04T12:45:03.299Z",
         "updatedBy": {
           "sys": {
-            "id": "5y6XIOnt9JXzRCRIrZMuW8",
+            "id": "1TgN2hemGAs3zEftHlON4R",
             "type": "Link",
             "linkType": "User"
           }
@@ -887,13 +887,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
-        "id": "1IVM9EVokgYmU0AG66OK2M",
+        "id": "2JYalLzkHuoo2G80acCKiw",
         "type": "Entry",
-        "createdAt": "2018-10-04T09:03:53.740Z",
-        "updatedAt": "2018-10-04T10:23:45.073Z",
+        "createdAt": "2018-10-04T12:45:06.623Z",
+        "updatedAt": "2018-10-04T12:45:08.866Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -905,28 +905,102 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedCounter": 6,
-        "version": 78,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedVersion": 77,
-        "firstPublishedAt": "2018-10-04T09:05:00.867Z",
-        "publishedAt": "2018-10-04T10:23:45.073Z",
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-10-04T12:45:08.866Z",
+        "publishedAt": "2018-10-04T12:45:08.866Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "partNavigation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Main navigation"
+        },
+        "id": {
+          "en-US": "mainNavigation"
+        },
+        "routes": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1IVM9EVokgYmU0AG66OK2M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "g2qyx4w0emn3"
+          }
+        },
+        "id": "1IVM9EVokgYmU0AG66OK2M",
+        "type": "Entry",
+        "createdAt": "2018-10-04T12:45:06.624Z",
+        "updatedAt": "2018-10-04T12:45:07.559Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-10-04T12:45:07.559Z",
+        "publishedAt": "2018-10-04T12:45:07.559Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -977,13 +1051,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
-        "id": "3Rp4jOYI7YWKUci4464QWU",
+        "id": "6xyjUqKul2SWmi6CCWCiMs",
         "type": "Entry",
-        "createdAt": "2018-10-04T09:04:40.935Z",
-        "updatedAt": "2018-10-04T10:37:04.113Z",
+        "createdAt": "2018-10-04T12:45:06.649Z",
+        "updatedAt": "2018-10-04T12:45:08.432Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -995,28 +1069,94 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedCounter": 4,
-        "version": 23,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedVersion": 22,
-        "firstPublishedAt": "2018-10-04T09:04:48.861Z",
-        "publishedAt": "2018-10-04T10:37:04.113Z",
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-10-04T12:45:08.432Z",
+        "publishedAt": "2018-10-04T12:45:08.432Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "partGlobals"
+          }
+        }
+      },
+      "fields": {
+        "siteName": {
+          "en-US": "Corbalt"
+        },
+        "siteDescription": {
+          "en-US": "Hello world"
+        },
+        "version": {
+          "en-US": 1
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "g2qyx4w0emn3"
+          }
+        },
+        "id": "3Rp4jOYI7YWKUci4464QWU",
+        "type": "Entry",
+        "createdAt": "2018-10-04T12:45:06.656Z",
+        "updatedAt": "2018-10-04T12:45:08.032Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1TgN2hemGAs3zEftHlON4R"
+          }
+        },
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-10-04T12:45:08.032Z",
+        "publishedAt": "2018-10-04T12:45:08.032Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1049,13 +1189,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "id": "5gjbLNYRdeEw6YsesUgok8",
         "type": "Entry",
-        "createdAt": "2018-10-04T09:05:37.142Z",
-        "updatedAt": "2018-10-04T10:03:26.149Z",
+        "createdAt": "2018-10-04T12:45:06.665Z",
+        "updatedAt": "2018-10-04T12:45:06.962Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1067,28 +1207,28 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedCounter": 2,
-        "version": 35,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "publishedVersion": 34,
-        "firstPublishedAt": "2018-10-04T09:05:55.711Z",
-        "publishedAt": "2018-10-04T10:03:26.149Z",
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-10-04T12:45:06.962Z",
+        "publishedAt": "2018-10-04T12:45:06.962Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1103,146 +1243,6 @@
         },
         "copyrightNotice": {
           "en-US": "Edenspiekermann 2018"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "0npdwadkswvd"
-          }
-        },
-        "id": "2JYalLzkHuoo2G80acCKiw",
-        "type": "Entry",
-        "createdAt": "2018-10-04T09:58:58.528Z",
-        "updatedAt": "2018-10-04T10:19:30.979Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "publishedCounter": 3,
-        "version": 38,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "publishedVersion": 37,
-        "firstPublishedAt": "2018-10-04T09:59:21.783Z",
-        "publishedAt": "2018-10-04T10:19:30.979Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "partNavigation"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Main navigation"
-        },
-        "id": {
-          "en-US": "mainNavigation"
-        },
-        "routes": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1IVM9EVokgYmU0AG66OK2M"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "0npdwadkswvd"
-          }
-        },
-        "id": "6xyjUqKul2SWmi6CCWCiMs",
-        "type": "Entry",
-        "createdAt": "2018-10-04T10:00:03.118Z",
-        "updatedAt": "2018-10-04T10:19:06.379Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 20,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
-          }
-        },
-        "publishedVersion": 19,
-        "firstPublishedAt": "2018-10-04T10:00:45.637Z",
-        "publishedAt": "2018-10-04T10:19:06.379Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "partGlobals"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Corbalt"
-        },
-        "siteDescription": {
-          "en-US": "Hello world"
-        },
-        "version": {
-          "en-US": 1
         }
       }
     }
@@ -1260,13 +1260,13 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "2NuGHc1SyWxriFWiCKifGC",
+        "id": "3iG2MkSxXpflq93qfOBf6q",
         "version": 1,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "0npdwadkswvd"
+            "id": "g2qyx4w0emn3"
           }
         },
         "environment": {
@@ -1280,18 +1280,18 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "createdAt": "2018-10-04T08:35:23Z",
+        "createdAt": "2018-10-04T12:39:13Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "5y6XIOnt9JXzRCRIrZMuW8"
+            "id": "1TgN2hemGAs3zEftHlON4R"
           }
         },
-        "updatedAt": "2018-10-04T08:35:23Z"
+        "updatedAt": "2018-10-04T12:39:13Z"
       }
     }
   ],
