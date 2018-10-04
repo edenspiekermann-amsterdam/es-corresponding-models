@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { H1 } from '../../../app/typography/index'
-import { Box, Column, Row } from '../../../app/layout/index'
+import {Column, Row } from '../../../app/layout/index'
 
 export const SectionFooterView = props => (
   <div>

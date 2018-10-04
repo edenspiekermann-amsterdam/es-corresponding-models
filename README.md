@@ -1,6 +1,6 @@
 # Corresponding Contentful and React models (es-corresponding-models)
 
-TBW
+#TBW
 
 ```
 1. Set up for migrations
@@ -8,9 +8,14 @@ TBW
 3. Add content to sections
 4. Modify sections / create new sections
 
-Benefits:
-- Why is creating the model this way better?
-- What does the framework allow us to do more easily/better ?
+#TBW - What is the benefit of using migrations instead of manually creating the models in contentful?
+To answer your question on the benefits of using migration scripts. We need to create the models in Javascript because there is no other way to create the models in multiple environments. We use the ‘development’ environment to develop the models. Once the models are done these models must be created in the ‘master’ environment as well. Unfortunately there is no other way of doing this than using migrations. For example, you cannot promote the dev environment to master within contentful
+
+#TBW - What is the major benefit of this framework?
+
+The major benefits of the framework is that we can use layout sections as npm-modules.
+This means that in theory you can put a section into npm. Adding a new section to the project would be then as simple as running `npm --save install my-section`
+It would then add a new folder to your project with the proper boilerplate for your section and run the migration so that the Model gets created in your space.
 
 contentful login
 contentful space use

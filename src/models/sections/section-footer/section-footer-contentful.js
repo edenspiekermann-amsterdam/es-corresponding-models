@@ -3,7 +3,7 @@
  *
  * To run this migration from the command line, create a ~/.contentfulrc.json for the
  * development enmvironment and use:
- * contentful space migration --environment-id=development point-to-this-file.js
+ * contentful space migration --environment-id=development section-footer-contentful.js
  *
  *
  * Fields

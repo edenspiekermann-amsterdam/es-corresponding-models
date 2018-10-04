@@ -1,6 +1,6 @@
-import * as contentful from '../../../contentful/contentful';
 import React, { Component, Fragment } from 'react';
 import styled, { css } from 'styled-components';
+
 import { H1 } from '../../../app/typography'
 import { Link as NextLink } from '../../../router/next-routes';
 

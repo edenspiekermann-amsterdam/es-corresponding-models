@@ -1,8 +1,17 @@
-// Contentful migration
-//
-// To run this migration from the command line, create a ~/.contentfulrc.json for the
-// development enmvironment and use:
-// contentful space migration --environment-id=development point-to-this-file.js
+/**
+ * Part Globals Contentful migration
+ *
+ * To run this migration from the command line, create a ~/.contentfulrc.json for the
+ * development enmvironment and use:
+ * contentful space migration --environment-id=development part-globals-contentful.js
+ *
+ *
+ * Fields
+ * ======
+ * siteName (Symbol)
+ * siteDescription (Symbol)
+ * version (Integer)
+ */
 
 const migrations = require('../../../contentful/migrations')
 
