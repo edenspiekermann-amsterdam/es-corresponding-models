@@ -18,4 +18,15 @@
 
 7. Insert content into the contentful models using command: `contentful space import --content-file <your-content-file.json>`
 
-8. (Optional) If you later want to export the content you have created into a json file to be re-used, use command: `contentful space export`
+8. Install npm modules, build and run
+```
+npm install
+npm run next-express
+```
+  - This will install all the necessary npm modules,
+
+9. (Optional) If you later want to export the content you have created into a json file to be re-used, use command: `contentful space export`
+
+### Next Steps:
+
+- Read through the other [contents](/README.md) for further set up and information
