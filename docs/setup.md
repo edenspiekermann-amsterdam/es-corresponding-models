@@ -23,7 +23,7 @@
 npm install
 npm run next-express
 ```
-  - This will install all the necessary npm modules,
+  - This will install all the necessary npm modules, and get your site running live at http://0.0.0.0:8080/
 
 9. (Optional) If you later want to export the content you have created into a json file to be re-used, use command: `contentful space export`
 
