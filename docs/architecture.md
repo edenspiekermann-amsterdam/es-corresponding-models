@@ -19,6 +19,9 @@
 │   └── contentful               - contentful client code
 │   └── layouts                  - Similar to pages. See below
 │   └── models                   - Similar to page sections. See below
+|       └── content              - Content referred to by slug
+|       └── parts                - Content referred to by a section
+|       └── sections             - Building blocks of a layout
 │   └── primitives               - Similar to section paragraphs. See below
 │   └── router                   - next-routes related code
 │   └── shared-views             - sub views of the main model view. See below
@@ -55,25 +58,39 @@ All page render starts at `index.js` and follow these steps:
 ### Layouts (/src/layouts)
 
 For this project, layouts are the website pages. Each layout has a corresponding
-Contentful Layout entry. Most important fields of a layout are:
+Contentful Layout entry. The most important fields of a layout are:
 
 - id: this is equal to the route name
 - url: not used yet, can be used to build a dynamic
   [routes-list.js](/src/router/routes-list.js)
-- components: an array of Contentful Models to be rendered
+- components: an array of Contentful Models to be rendered (see Models below)
 
-See also: [layout data fetching](#layout-data-fetching)
+See also: [layout data fetching](./fetching-data.md#layout-data-fetching)
 
 ### Models (/src/models)
 
-A layout is built up out of models. Look at a layout as a page. Models are the
-sections of the pages. Each model corresponds to a Contentful model. Hence the
-name.
+Each model must always correspond to a Contentful model. Hence the name. There are three types of models in the models folder:
+
+1. content
+2. parts
+3. sections
 
 To be clear, a layout is also a Contenful model. Layouts are special models
 because they group other models. The responsibility of a Layout model is to
 fetch data and render the containing models. That is why they are treated
-differently and stored elsewhere.
+differently and stored elsewhere. Here is a short description of the other 3 model types:
+
+## Sections
+Sections are the building blocks that are used within layouts. If we think of a layout as a web page, the sections are the openers, bodies, and footers of the page. You can think of them as the paragraphs of the page.
+
+## Parts
+Parts are smaller components or tools that can be used within a section, such as a navigation bar. Parts are loaded from Contentful by using a query that depends on a field in the section eg. part ID.
+
+## Content
+This is a future improvement.
+Content is anything that is not a part or a section. Content is loaded from Contentful by using a query that depends on a dynamic part in the URL (slug). For example, one of many articles.
+
+
 
 A model has a `model.jsx` and a main `model-view.jsx`. The `model.jsx` converts
 the Contentful response into clean props for the main `model-view.jsx`.
@@ -107,7 +124,7 @@ If a model contains views that are shared with other models they are kept in
 `/src/shared-views`. Views that are local to the main model view are kept in the
 same folder as the main view.
 
-See also: [model data fetching](#model-data-fetching)
+See also: [model data fetching](./fetching-data.md#model-data-fetching)
 
 ### Primitives
 
