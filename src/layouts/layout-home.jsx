@@ -4,6 +4,7 @@ import { pageAdapter } from './page-adapter'
 import { ListOfSections } from '../models/sections/list'
 
 import { SectionOpener } from '../models/sections/section-opener/section-opener'
+import { SectionBody } from '../models/sections/section-body/section-body'
 import { SectionFooter } from '../models/sections/section-footer/section-footer'
 import { PartGlobals } from '../models/parts/part-globals/part-globals'
 import { PartNavigation } from '../models/parts/part-navigation/part-navigation'
@@ -46,6 +47,12 @@ export const homeModels = [
     model: PartNavigation,
     queryParametersFrom: {
       id: 'SectionOpener.response.fields.navigation.sys.id',
+    },
+  },
+  {
+    model: SectionBody,
+    queryParametersFrom: {
+      id: 'LayoutHome.response.sections.sectionBody.sys.id',
     },
   },
   {

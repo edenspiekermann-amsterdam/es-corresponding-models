@@ -2,11 +2,13 @@ import * as contentful from '../../contentful/contentful'
 import * as tools from '../../app/tools'
 
 import { SectionFooter } from './section-footer/section-footer'
+import { SectionBody} from './section-body/section-body'
 import { SectionOpener } from './section-opener/section-opener'
 
 // Translate className string into connected Section
 const sectionClasses = {
   SectionFooter: contentful.connect(SectionFooter),
+  SectionBody: contentful.connect(SectionBody),
   SectionOpener: contentful.connect(SectionOpener),
 }
 

@@ -115,7 +115,7 @@ module.exports = async function (migration) {
             linkType: 'Entry',
             validations: [
               {
-                linkContentType: ['sectionFooter','sectionOpener']
+                linkContentType: ['sectionBody','sectionFooter','sectionOpener']
               }
             ]
           },
