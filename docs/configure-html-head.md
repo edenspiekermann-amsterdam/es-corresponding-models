@@ -2,7 +2,7 @@
 
 Data can be added to the HTML `<Head>` element by using a `setHtmlHeadFrom`
 object. The keys of this object correspond to the props of `<AppHead>` defined
-in [head.jsx](./src/app/head.jsx)
+in [head.jsx](/src/app/head.jsx)
 
 A single source string can be used. This example adds a title and a description.
 ```

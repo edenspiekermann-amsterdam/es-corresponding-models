@@ -1,6 +1,6 @@
 # Corresponding Models Site
 
-Corresponding Models enables you to easily create models in Javascript and migrate them to your space on www.contentful.com
+Corresponding Models enables you to easily create models in Javascript and migrate them to your space on [Contentful](https://www.contentful.com/).
 
 This allows you to seamlessly move models and content between envrionments and projects, and create elegant, well-structured websites with minimal effort.
 

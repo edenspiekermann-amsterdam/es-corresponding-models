@@ -19,7 +19,7 @@
 │   └── contentful               - contentful client code
 │   └── layouts                  - Similar to pages. See below
 │   └── models                   - Similar to page sections. See below
-|       └── content              - Content referred to by slug
+|       └── content              - Content referred to by a url slug
 |       └── parts                - Content referred to by a section
 |       └── sections             - Building blocks of a layout
 │   └── primitives               - Similar to section paragraphs. See below
@@ -88,7 +88,7 @@ Parts are smaller components or tools that can be used within a section, such as
 
 ## Content
 This is a future improvement.
-Content is anything that is not a part or a section. Content is loaded from Contentful by using a query that depends on a dynamic part in the URL (slug). For example, one of many articles.
+Content is anything that is not a part or a section. Content is loaded from Contentful by using a query that depends on a dynamic part in the URL [(slug)](https://yoast.com/slug/). For example, one of many articles.
 
 
 

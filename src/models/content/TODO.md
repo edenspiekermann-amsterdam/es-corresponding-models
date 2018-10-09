@@ -1,5 +1,4 @@
 # TODO
 
 Just like `models/sections` and `models/parts` this folder will contain the models for all other data
-like the existing `Ofices` and `Service` models
-
+like the existing `Offices` and `Service` models

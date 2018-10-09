@@ -19,7 +19,7 @@ The response is stored in the `StoreContext` with the layout modelName as key.
 
 ## Model data fetching
 
-Optionally a model can just like a layout, define a `static query` on the layout
+Optionally a model can, just like a layout, define a `static query` on the layout
 class to prefetch data. The response is also stored in the `StoreContext` with
 the model modelName as key.
 
