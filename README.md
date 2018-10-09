@@ -7,7 +7,6 @@ This allows you to seamlessly move models and content between envrionments and p
 ## Content
 
 - [Initial Contentful Setup](./docs/setup.md)
-- [Deploying on Kubernetes](./docs/kubernetes.md)
 - [Project Architecture](./docs/architecture.md)
 - [Project Design](./docs/design.md)
 - [Tech Stack](./docs/tech-stack.md)
