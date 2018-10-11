@@ -5,6 +5,7 @@ export const H1 = props => (
     color="emperor"
     fontSize={[6]}
     lineHeight={[6]}
+    mt={[0]}
     mb={[2]}
     is="h1"
     textStyle="heading"

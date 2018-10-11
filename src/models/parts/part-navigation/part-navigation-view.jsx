@@ -37,6 +37,7 @@ const MenuToggle = styled.button`
 const MenuList = styled.ul`
   list-style: none;
   margin: 0;
+  padding: 0;
 `;
 
 const MenuItem = styled.li`
@@ -76,9 +77,9 @@ export class PartNavigationView extends Component {
       <Fragment>
         <H1>PartNavigation</H1>
         <MenuContainer>
-          <MenuToggle aria-pressed={this.state.isActive} onClick={this.toggleIsActive}>
+          {/* <MenuToggle aria-pressed={this.state.isActive} onClick={this.toggleIsActive}>
             {this.state.isActive ? 'Close' : 'Open'} menu
-          </MenuToggle>
+          </MenuToggle> */}
           <MenuList aria-expanded={this.state.isActive}>{linkList}</MenuList>
         </MenuContainer>
       </Fragment>

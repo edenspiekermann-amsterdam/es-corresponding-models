@@ -30,14 +30,14 @@ export const appTheme = {
     42, // h1
   ],
 
-  lineHeight: [
-    22, // meta leading
-    24, // paragraph small leading
-    28, // h4 leading & paragraph leading
-    32, // h3 leading & intro leading
-    40, // h2 leading
-    48, // display leading
-    56, // h1 leading
+  lineHeights: [
+    "22px", // meta leading
+    "24px", // paragraph small leading
+    "28px", // h4 leading & paragraph leading
+    "32px", // h3 leading & intro leading
+    "40px", // h2 leading
+    "48px", // display leading
+    "56px", // h1 leading
   ],
 
   colors: {
