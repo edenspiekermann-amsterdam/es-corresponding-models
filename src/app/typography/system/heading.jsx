@@ -29,5 +29,5 @@ export const Heading = styled(tag)`
 Heading.defaultProps = {
   theme: appTheme,
   fontFamily: 'sans',
-  fontSize: [4, 5, 6],
+  color: 'emperor',
 }

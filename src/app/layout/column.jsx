@@ -11,9 +11,11 @@ import {
   flex,
   fontSize,
   height,
+  maxHeight,
   order,
   space,
   textAlign,
+  maxWidth,
   width,
   zIndex,
 } from 'styled-system'
@@ -22,20 +24,18 @@ export const Column = styled(tag).attrs({
   px: props => typeof props.gutter !== 'undefined' ? props.gutter : props.px,
 })`
   box-sizing: border-box;
-  position: relative;
-  min-height: 1px;
-  max-width: 1000px;
-
   ${alignSelf}
   ${color}
   ${display}
   ${flex}
   ${fontSize}
   ${height}
+  ${maxHeight}
   ${order}
   ${space}
   ${textAlign}
   ${width}
+  ${maxWidth}
   ${zIndex}
 `
 

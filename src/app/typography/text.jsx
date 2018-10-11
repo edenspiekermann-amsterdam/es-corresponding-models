@@ -33,6 +33,6 @@ export const Text = styled(tag)`
 `
 Text.defaultProps = {
   theme: appTheme,
-  lineHeight: ['24px', '32px'],
+  lineHeight: [2, 3],
   fontSize: [1, 2],
 }

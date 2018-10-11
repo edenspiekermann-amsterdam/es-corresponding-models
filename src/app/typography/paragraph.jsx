@@ -4,7 +4,7 @@ export const Paragraph = props => (
   <Text
     fontSize={[1, 2]}
     is="p"
-    lineHeight={['24px', '32px']}
+    lineHeight="1.25"
     textStyle="base"
     { ...props }
   />

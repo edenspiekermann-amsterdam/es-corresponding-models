@@ -1,23 +1,18 @@
 import * as contentful from '../../../contentful/contentful'
-import React from 'react';
-import styled from 'styled-components';
-import { H1 } from '../../../app/typography'
-import { Column, Row } from '../../../app/layout'
+import React from 'react'
+import {H2, Paragraph} from '../../../app/typography'
+import {Column, Row} from '../../../app/layout'
 
-import { PartNavigation } from '../../parts/part-navigation/part-navigation'
+import {PartNavigation} from '../../parts/part-navigation/part-navigation'
+
 const ConnectedPartNavigation = contentful.connect(PartNavigation)
 
-const OpenerContainer = styled.div`
-  position: relative;
-`;
-
 export const SectionOpenerBasicView = props => (
-  <OpenerContainer>
-    <ConnectedPartNavigation />
-    <H1>SectionOpenerBasicView</H1>
-    <Row>
-      <Column>Title: {props.title} </Column>
-      <Column>Variation: {props.variation} </Column>
-    </Row>
-  </OpenerContainer>
+  <Row>
+    <Column width={[1, (1 / 1.1), (1 / 1.25)]} maxWidth='60em' ml='auto' mr='auto'>
+      <ConnectedPartNavigation />
+      <H2>SectionOpenerBasicView</H2>
+      <Paragraph>Title: {props.title} Variation: {props.variation}</Paragraph>
+    </Column>
+  </Row>
 )
