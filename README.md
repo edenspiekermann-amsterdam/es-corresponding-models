@@ -11,7 +11,7 @@ this is by far not a framework yet, we consider it the start of one.
 The framework will enable you to easily create models in Javascript and migrate
 them to your space on [Contentful](https://www.contentful.com/).
 
-This allows for seamlessly moving models and content between envrionments and
+This allows for seamlessly moving models and content between environments and
 projects, and create elegant, well-structured websites with minimal effort.
 
 
