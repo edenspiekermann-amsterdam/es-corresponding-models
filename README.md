@@ -5,6 +5,7 @@ simple and modular way. At Edenspiekermann we activly use the techniques
 demonstrated here to develop designs. Either fully enabled React application as
 well as statically generated sites.
 
+
 ## Introduction
 
 Within this repository we will refer to the code here as 'the framework'. While
@@ -16,6 +17,7 @@ them to your space on [Contentful](https://www.contentful.com/).
 This allows for seamlessly moving models and content between envrionments and
 projects, and create elegant, well-structured websites with minimal effort.
 
+
 ## Content
 
 - [Setup Models and local server](./docs/setup.md)
@@ -24,6 +26,7 @@ projects, and create elegant, well-structured websites with minimal effort.
 - [Tech Stack](./docs/tech-stack.md)
 - [Configuring the HTML Head](./docs/configure-html-head.md)
 - [Fetching Data](./docs/fetching-data.md)
+
 
 ## Benefits
 
@@ -39,6 +42,7 @@ time we change environments or start a new project.
 
 This allows us to easily use a 'development' environment, or to use our models
 in a new project seamlessly.
+
 
 ### NPM modules
 
@@ -58,9 +62,13 @@ npm --save install my-section
 It would then add a new folder to your project with the proper boilerplate for
 your section and run the migration so that the Model gets created in your space.
 
+
 ## Requirements
 
 - Node ^8
+- Free Contentful account
+- https://github.com/contentful/contentful-cli
+
 
 ## Roadmap
 
@@ -69,10 +77,12 @@ your section and run the migration so that the Model gets created in your space.
 - Move framework code into separate modules
 - Move sections, parts and content model definitions into separate modules
 
+
 ### Less manual steps
 
 - Make layout sections load data automatically
 - Generate routes list from Contentful layouts
+
 
 ### Features
 
@@ -81,10 +91,12 @@ your section and run the migration so that the Model gets created in your space.
 - Define a model dependencies (eg in a tree) so that models can be loaded in
   parallel
 
+
 ### General
 
 - Better error handling
 - Remove .response key
+
 
 ## Continue reading
 
