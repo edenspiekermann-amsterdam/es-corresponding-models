@@ -8,15 +8,11 @@ import {
   fontFamily,
   fontSize,
   fontWeight,
+  lineHeight,
   space,
   textStyle,
   style,
 } from 'styled-system'
-
-const lineHeight = style({
-  prop: "lineHeight",
-  cssProperty: "lineHeight"
-})
 
 // The main feature here is responsive headers without hassle. The major
 // drawback is that we loose the standard markup headers: h1, h2, etc
