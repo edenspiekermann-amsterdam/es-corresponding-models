@@ -7,22 +7,27 @@ well as statically generated sites.
 
 ## Introduction
 
-This repository enables you to easily create models in Javascript and migrate
+Within this repository we will refer to the code here as 'the framework'. While
+this is by far not a framework yet, we consider it the start of one.
+
+The framework will enable you to easily create models in Javascript and migrate
 them to your space on [Contentful](https://www.contentful.com/).
 
-This allows you to seamlessly move models and content between envrionments and
+This allows for seamlessly moving models and content between envrionments and
 projects, and create elegant, well-structured websites with minimal effort.
 
 ## Content
 
-- [Initial Contentful Setup](./docs/setup.md)
+- [Setup Models and local server](./docs/setup.md)
 - [Project Architecture](./docs/architecture.md)
 - [Project Design](./docs/design.md)
 - [Tech Stack](./docs/tech-stack.md)
 - [Configuring the HTML Head](./docs/configure-html-head.md)
 - [Fetching Data](./docs/fetching-data.md)
 
-## Benefits of using migrations
+## Benefits
+
+### Migrations
 
 What is the benefit of using migrations instead of manually creating the models
 on the contentful website?
@@ -30,21 +35,24 @@ on the contentful website?
 Currently the way to create the same model in multiple environments on
 Contenftul is manually through the website. By using migrations in Javascript,
 we avoid having to manually create the models on the Contentful website every
-time we change environments or start a new project. This allows us to easily use
-a 'development' environment, or to use our models and content in a new project
-seamlessly.
+time we change environments or start a new project.
 
-## Major benefit of this framework
-The major benefits of the framework is that it allows us to move our models
-between environments and projects.
+This allows us to easily use a 'development' environment, or to use our models
+in a new project seamlessly.
 
-We're only a small step from using layout sections as npm-modules.
+### NPM modules
 
-This means that you can put a section into npm. Adding a new section to the
+This is a future improvement that can be realized with a minimal amount of work.
+
+With the current setup it is easy to move models between environments and
+projects. Using NPM modules would make this even easier and also adds dependency
+and version control. 
+
+This would mean that you can put sections into npm. Adding a new section to the
 project would be then as simple as running
 
 ```
-npm --save install my-section`
+npm --save install my-section
 ```
 
 It would then add a new folder to your project with the proper boilerplate for
