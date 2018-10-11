@@ -1,8 +1,8 @@
 # Corresponding Models
 
-This repository proofs that working with Contentful and React can be done in a
-simple and modular way. At Edenspiekermann we activly use the techniques
-demonstrated here to develop designs. Either fully enabled React application as
+This repository proves that working with Contentful and React can be done in a
+simple and modular way. At Edenspiekermann we actively use the techniques
+demonstrated here to develop designs. They can be used to design fully enabled React applications as
 well as statically generated sites.
 
 
@@ -14,7 +14,7 @@ this is by far not a framework yet, we consider it the start of one.
 The framework will enable you to easily create models in Javascript and migrate
 them to your space on [Contentful](https://www.contentful.com/).
 
-This allows for seamlessly moving models and content between envrionments and
+This allows for seamlessly moving models and content between environments and
 projects, and create elegant, well-structured websites with minimal effort.
 
 
@@ -57,7 +57,7 @@ This is a future improvement that can be realized with a minimal amount of work.
 
 With the current setup it is easy to move models between environments and
 projects. Using NPM modules would make this even easier and also adds dependency
-and version control. 
+and version control.
 
 This would mean that you can put sections into npm. Adding a new section to the
 project would be then as simple as running
