@@ -136,8 +136,7 @@ See also: [model data fetching](./fetching-data.md#model-data-fetching)
 
 ### Primitives
 
-Primitives are the blocks to build views from. Look at primitives as the
-paragraphs of a page section. They are in fact reusable React elements.
+Primitives are the blocks to build views from. Look at primitives as words or sentences within paragraphs. They are in fact reusable React elements.
 
 Because of the many ways of creating React elements, use these best practices to
 keep the primitives organized:

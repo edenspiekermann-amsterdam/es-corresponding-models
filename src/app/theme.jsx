@@ -21,20 +21,26 @@ export const appTheme = {
   space: [0, 8, 16, 32, 40, 48, 56, 64, 72, 80, 96],
 
   fontSizes: [
-    14, // meta
-    16, // paragraph small
-    20, // h4 & paragraph
-    24, // h3 & intro
+    14, // meta & meta-mobile
+    16, // paragraph small & paragraph small leading mobile
+    18, //h4 mobile & paragraph mobile & paragraph article mobile
+    20, // h4 & paragraph & intro mobile
+    24, // h3 & h2 mobile & intro
+    26, // display mobile
+    28, // h1 mobile
     30, // h2
     36, // display
     42, // h1
   ],
 
   lineHeights: [
-    "22px", // meta leading
-    "24px", // paragraph small leading
-    "28px", // h4 leading & paragraph leading
-    "32px", // h3 leading & intro leading
+    "22px", // meta leading & meta leading mobile
+    "24px", // paragraph small leading & paragraph small leading mobile
+    "26px", // h4 leading mobile & paragraph leading mobile & paragraph article leading mobile
+    "28px", // h4 leading & paragraph leading & intro leading mobile
+    "32px", // h3 leading & h2 leading mobile & intro leading
+    "34px", // display leading mobile
+    "36px", // h1 leading mobile
     "40px", // h2 leading
     "48px", // display leading
     "56px", // h1 leading
