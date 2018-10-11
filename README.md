@@ -35,7 +35,6 @@ projects, and create elegant, well-structured websites with minimal effort.
 - [Kubernetes](./docs/kubernetes.md)
 
 
-
 ## Benefits
 
 ### Migrations
