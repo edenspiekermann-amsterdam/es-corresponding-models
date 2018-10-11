@@ -3,6 +3,8 @@ import { SectionFooterView as View } from './section-footer-view'
 
 export class SectionFooter extends Component {
   static modelName = 'Footer'
+
+  static optionalModel = true
   static query = {
     fields: { content_type: 'sectionFooter', 'sys.id': ':id' },
     clientMethod: 'getEntries',

@@ -19,13 +19,12 @@ import {
 } from 'styled-system'
 
 export const Column = styled(tag).attrs({
-  // @marijn wanted Column to have a gutter prop which aliasses the horizontal
-  // padding syntax:
   px: props => typeof props.gutter !== 'undefined' ? props.gutter : props.px,
 })`
   box-sizing: border-box;
   position: relative;
   min-height: 1px;
+  max-width: 1000px;
 
   ${alignSelf}
   ${color}

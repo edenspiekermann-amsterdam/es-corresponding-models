@@ -5,14 +5,15 @@ import { appTheme } from '../../theme'
 
 import {
   color,
+  fontFamily,
   fontSize,
   fontWeight,
   space,
   textStyle,
-  responsiveStyle,
+  style,
 } from 'styled-system'
 
-const lineHeight = responsiveStyle({
+const lineHeight = style({
   prop: "lineHeight",
   cssProperty: "lineHeight"
 })
@@ -23,7 +24,7 @@ const lineHeight = responsiveStyle({
 export const Heading = styled(tag)`
   ${space}
   ${textStyle}
-
+  ${fontFamily}
   ${color}
   ${fontSize}
   ${fontWeight}
@@ -31,5 +32,6 @@ export const Heading = styled(tag)`
 `
 Heading.defaultProps = {
   theme: appTheme,
+  fontFamily: 'sans',
   fontSize: [4, 5, 6],
 }

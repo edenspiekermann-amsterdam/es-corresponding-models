@@ -7,8 +7,8 @@ import { SectionOpener } from './section-opener/section-opener'
 
 // Translate className string into connected Section
 const sectionClasses = {
-  SectionFooter: contentful.connect(SectionFooter),
   SectionBody: contentful.connect(SectionBody),
+  SectionFooter: contentful.connect(SectionFooter),
   SectionOpener: contentful.connect(SectionOpener),
 }
 

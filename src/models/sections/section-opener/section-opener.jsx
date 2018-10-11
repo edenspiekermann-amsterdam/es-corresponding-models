@@ -14,6 +14,8 @@ variations[VARIATIONS.SectionOpenerAnotherView] = SectionOpenerAnotherView
 
 export class SectionOpener extends Component {
   static modelName = 'SectionOpener'
+
+  static optionalModel = true
   static query = {
     fields: { content_type: 'sectionOpener', 'sys.id': ':id' },
     clientMethod: 'getEntries',

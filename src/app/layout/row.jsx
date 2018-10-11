@@ -25,6 +25,7 @@ import {
 export const Row = styled(tag)`
   box-sizing: border-box;
   display: flex;
+  text-align: center;
 
   ${alignItems}
   ${alignSelf}

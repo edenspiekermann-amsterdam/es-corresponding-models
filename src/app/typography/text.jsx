@@ -6,15 +6,16 @@ import { appTheme } from '../theme'
 import {
   color,
   display,
+  fontFamily,
   fontSize,
   fontWeight,
   textAlign,
   space,
   textStyle,
-  responsiveStyle,
+  style,
 } from 'styled-system'
 
-const lineHeight = responsiveStyle({
+const lineHeight = style({
   prop: "lineHeight",
   cssProperty: "lineHeight"
 })
@@ -22,6 +23,7 @@ const lineHeight = responsiveStyle({
 export const Text = styled(tag)`
   ${color}
   ${display}
+  ${fontFamily}
   ${fontSize}
   ${fontWeight}
   ${lineHeight}

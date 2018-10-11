@@ -27,6 +27,12 @@ npm run next-express
 
 9. (Optional) If you later want to export the content you have created into a json file to be re-used, use command: `contentful space export`
 
+Summary of npm commands:
+
+`npm start` - run production server
+`npm run next` - start dev env
+`npm run next-express` - start dev env with express so that routes work
+
 ### Next Steps:
 
 - Read through the other [contents](/README.md) for further set up and information

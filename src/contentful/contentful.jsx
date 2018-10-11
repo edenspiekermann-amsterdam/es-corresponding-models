@@ -52,7 +52,7 @@ export const fetchComponentQueries = ({
   for (let i = 0; i < routeModels.length; i++) {
     let runAnotherModel = () => {
       const model = routeModels[i].model
-      let skipQueryForOptionalSection = false
+      let skipQueryForoptionalModel = false
 
       // Create copies of query and queryFields because they could be altered
       let query, queryFields
@@ -69,11 +69,11 @@ export const fetchComponentQueries = ({
         query.id = tools.parsePath({
           path: routeModels[i].queryIdFrom,
           data,
-          allowPathNotFound: model.optionalSection,
+          allowPathNotFound: model.optionalModel,
         })
         // If this is an optional model, parsePath may return
         // PATH_NOT_FOUND. In that case we can safely skip the query.
-        if (query.id == 'PATH_NOT_FOUND') skipQueryForOptionalSection = true
+        if (query.id == 'PATH_NOT_FOUND') skipQueryForoptionalModel = true
       }
 
       // Handle queryParametersFrom
@@ -87,12 +87,12 @@ export const fetchComponentQueries = ({
             parameters[key] = tools.parsePath({
               path: parameters[key],
               data,
-              allowPathNotFound: model.optionalSection,
+              allowPathNotFound: model.optionalModel,
             })
             // If this is an optional model, parsePath may return
             // PATH_NOT_FOUND. In that case we can safely skip the query.
             if (parameters[key] == 'PATH_NOT_FOUND')
-              skipQueryForOptionalSection = true
+              skipQueryForoptionalModel = true
           }
         }
         parseQueryFieldVariables({
@@ -120,7 +120,7 @@ export const fetchComponentQueries = ({
 
       // Run query and chain promises
       let queryPromise = new Promise(function(resolve, reject) {
-        if (query && queryFields && !skipQueryForOptionalSection) {
+        if (query && queryFields && !skipQueryForoptionalModel) {
           const queryPromise = client[query.clientMethod](
             ...getClientParameters({
               locale,

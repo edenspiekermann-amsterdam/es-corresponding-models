@@ -13,6 +13,8 @@
  */
 
 const migrations = require('../../../contentful/migrations')
+const VARIATIONS = require('./section-body-contentful-variations')
+
 
 module.exports = async function(migration) {
   await migrations.createOrEditContentType({
@@ -27,6 +29,28 @@ module.exports = async function(migration) {
           type: 'Symbol',
           required: true,
           validations: [{ size: { min: 0, max: 255 } }],
+        },
+        widgetId: 'singleLine',
+        settings: [
+          {
+            helpText: 'Title used by Contentful'
+          }
+        ],
+      },
+      variation: {
+        specs: {
+          name: 'Body variation',
+          type: 'Symbol',
+          required: true,
+          validations: [
+            {
+              in: Object.values(VARIATIONS),
+            },
+          ],
+        },
+        widgetId: 'dropdown',
+        settings: {
+          helpText: 'Select section-body',
         },
       },
       bodyText: {
