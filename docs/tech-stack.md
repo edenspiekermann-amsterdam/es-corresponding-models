@@ -14,8 +14,8 @@
 
 ## Requirements
 
-- Node ^8
-- Free Contentful account
+- https://github.com/edenspiekermann-amsterdam/es-corresponding-models/tree/develop
+- https://www.contentful.com/
 - https://github.com/contentful/contentful-cli
 
 
