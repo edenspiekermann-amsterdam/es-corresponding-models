@@ -135,7 +135,7 @@ Start live reloading development environment:
 npm run next
 ```
 
-Start live reloading dev environemnt with express server so that routes and
+Start live reloading dev environment with express server so that routes and
 reloading a page will work:
 ```
 npm run next-express
