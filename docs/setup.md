@@ -40,7 +40,7 @@ To be able to create our Contentful models from javascript (called migrations),
 we need to install the Contentful cli:
 
 ```
-npm install -g contentful-cli
+sudo npm install -g contentful-cli
 ```
 
 This is well documented here: https://github.com/contentful/contentful-cli
@@ -77,6 +77,7 @@ contentful space environment use
 Now that we have the Contentful CLI in place we can run the migrations that will
 create our contentful models:
 ```
+npm install
 npm run run-migrations
 ```
 
