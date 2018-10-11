@@ -34,10 +34,10 @@ name the new file [secrets.js](/src/contentful/secrets.js)
 Fill in the details and save the file.
 
 
-## Contentful cli
+## Contentful CLI
 
 To be able to create our Contentful models from javascript (called migrations),
-we need to install the Contentful cli:
+we need to install the Contentful CLI:
 
 ```
 npm install -g contentful-cli
@@ -48,7 +48,7 @@ This is well documented here: https://github.com/contentful/contentful-cli
 
 ## Contentful access
 
-The next steps tell the Contentful cli which credentials to use and which
+The next steps tell the Contentful CLI which credentials to use and which
 space to connect to.
 
 Note that the secrets here are different from the ones we put in
@@ -75,7 +75,7 @@ contentful space environment use
 ## Migrations
 
 Now that we have the Contentful CLI in place we can run the migrations that will
-create our contentful models:
+create our Contentful models:
 ```
 npm run run-migrations
 ```
@@ -96,7 +96,7 @@ contentful space import --content-file ./contentful-content-file.json
 ```
 
 Check the Contentful web ui to see if some data is there. There's a little
-note here. While it all may seem as if the data was loaded. The contentful
+note here. While it all may seem as if the data was loaded. The Contentful
 import tool will import the required models as well. 
 
 So even without running the migrations the demo will work. Obviously importing

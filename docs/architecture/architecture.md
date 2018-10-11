@@ -16,7 +16,7 @@
 │   |   └── layout               - themed layout elements like row and column
 │   |   └── typography           - themed typography elements like h1 and text
 |   |
-│   └── contentful               - contentful client code
+│   └── contentful               - Contentful client code
 │   └── layouts                  - Similar to pages. See below
 │   └── models                   - Similar to page sections. See below
 |       └── content              - Content referred to by a url slug

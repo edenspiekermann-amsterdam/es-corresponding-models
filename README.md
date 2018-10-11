@@ -40,10 +40,10 @@ projects, and create elegant, well-structured websites with minimal effort.
 ### Migrations
 
 What is the benefit of using migrations instead of manually creating the models
-on the contentful website?
+on the Contentful website?
 
 Currently the way to create the same model in multiple environments on
-Contenftul is manually through the website. By using migrations in Javascript,
+Contentful is manually through the website. By using migrations in Javascript,
 we avoid having to manually create the models on the Contentful website every
 time we change environments or start a new project.
 
