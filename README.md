@@ -20,12 +20,20 @@ projects, and create elegant, well-structured websites with minimal effort.
 
 ## Content
 
-- [Setup Models and local server](./docs/setup.md)
-- [Project Architecture](./docs/architecture.md)
-- [Project Design](./docs/design.md)
-- [Tech Stack](./docs/tech-stack.md)
-- [Configuring the HTML Head](./docs/configure-html-head.md)
-- [Fetching Data](./docs/fetching-data.md)
+- [Tech stack amd requirements](./docs/tech-stack.md)
+- [Get the demo running](./docs/setup.md)
+- [Roadmap](./docs/roadmap.md)
+
+## Architecture
+
+- [Project Architecture](./docs/architecture/architecture.md)
+- [Fetching Data](./docs/architecture/fetching-data.md)
+- [Configuring the HTML Head](./docs/architecture/configure-html-head.md)
+
+## Other
+
+- [Kubernetes](./docs/kubernetes.md)
+
 
 
 ## Benefits
@@ -63,41 +71,7 @@ It would then add a new folder to your project with the proper boilerplate for
 your section and run the migration so that the Model gets created in your space.
 
 
-## Requirements
+## Next Steps
 
-- Node ^8
-- Free Contentful account
-- https://github.com/contentful/contentful-cli
+[Get up and running](./docs/setup.md)
 
-
-## Roadmap
-
-### Use npm modules
-
-- Move framework code into separate modules
-- Move sections, parts and content model definitions into separate modules
-
-
-### Less manual steps
-
-- Make layout sections load data automatically
-- Generate routes list from Contentful layouts
-
-
-### Features
-
-- Make content models work with queries based on slug
-- Add model cache property
-- Define a model dependencies (eg in a tree) so that models can be loaded in
-  parallel
-
-
-### General
-
-- Better error handling
-- Remove .response key
-
-
-## Continue reading
-
-[Initial Contentful Setup](./docs/setup.md)

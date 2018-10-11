@@ -69,7 +69,8 @@ See also: [layout data fetching](./fetching-data.md#layout-data-fetching)
 
 ### Models (/src/models)
 
-Each model must always correspond to a Contentful model. Hence the name. There are three types of models in the models folder:
+Each model must always correspond to a Contentful model. Hence the name. There
+are three types of models in the models folder:
 
 1. content
 2. parts
@@ -78,22 +79,29 @@ Each model must always correspond to a Contentful model. Hence the name. There a
 To be clear, a layout is also a Contenful model. Layouts are special models
 because they group other models. The responsibility of a Layout model is to
 fetch data and render the containing models. That is why they are treated
-differently and stored elsewhere. Here is a short description of the other 3 model types:
+differently and stored elsewhere. Here is a short description of the other 3
+model types:
 
 ## Sections
-Sections are the building blocks that are used within layouts. If we think of a layout as a web page, the sections are the openers, bodies, and footers of the page. You can think of them as the paragraphs of the page.
+Sections are the building blocks that are used within layouts. If we think of a
+layout as a web page, the sections are the openers, bodies, and footers of the
+page. You can think of them as the paragraphs of the page.
 
 ## Parts
-Parts are smaller components or tools that can be used within a section, such as a navigation bar. Parts are loaded from Contentful by using a query that depends on a field in the section eg. part ID.
+Parts are smaller components or tools that can be used within a section, such as
+a navigation bar. Parts are loaded from Contentful by using a query that depends
+on a field in the section eg. part ID.
 
 ## Content
-This is a future improvement.
-Content is anything that is not a part or a section. Content is loaded from Contentful by using a query that depends on a dynamic part in the URL [(slug)](https://yoast.com/slug/). For example, one of many articles.
+This is a future improvement. Content is anything that is not a part or a
+section but has a React component with a corresponding Contentful model. Content
+is loaded from Contentful by using a query that depends on a dynamic part in the
+URL [(slug)](https://yoast.com/slug/). For example, one of many articles.
 
-
-
-A model has a `model.jsx` and a main `model-view.jsx`. The `model.jsx` converts
-the Contentful response into clean props for the main `model-view.jsx`.
+All models have a `model.jsx` and a main `model-view.jsx`. The `model.jsx`
+defines the query, adds model options like `optionalModel`, converts the
+Contentful response into clean props and renders the separate view with the
+clean props from `model-view.jsx`.
 
 ```
 export class Model extends Component {
@@ -128,7 +136,7 @@ See also: [model data fetching](./fetching-data.md#model-data-fetching)
 
 ### Primitives
 
-Primitives are the blocks to build sections from. Look at primitives as the
+Primitives are the blocks to build views from. Look at primitives as the
 paragraphs of a page section. They are in fact reusable React elements.
 
 Because of the many ways of creating React elements, use these best practices to

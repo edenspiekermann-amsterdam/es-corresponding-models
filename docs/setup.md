@@ -74,39 +74,74 @@ contentful space environment use
 
 ## Migrations
 
-Run the migrations that setup our contentful models:
+Now that we have the Contentful CLI in place we can run the migrations that will
+create our contentful models:
 ```
 npm run run-migrations
 ```
 
-6. Go to the Content Model menu within Contentful, click on each individual model and click the green `Save` button on the right.
+Unfortunately there's a manual step involed here because of a bug we haven't
+been able to track yet. Bear with us and go to the Content Model menu within
+Contentful. Then click on each individual model and click the green `Save`
+button on the right. Thank you.
 
-7. Insert content into the contentful models using command: `contentful space import --content-file <your-content-file.json>`
 
-8. Install npm modules, build and run with these commands:
+## Load demo content
+
+Within a terminal make sure you are in the root of the repository. Then run this to
+import the demo content:
+
+```
+contentful space import --content-file ./contentful-content-file.json
+```
+
+Check the Contentful web ui to see if some data is there. There's a little
+note here. While it all may seem as if the data was loaded. The contentful
+import tool will import the required models as well. 
+
+So even without running the migrations the demo will work. Obviously importing
+models from json is not really the point here.
+
+
+## Run demo server
+
+As expected:
+
 ```
 npm install
 npm run next-express
 ```
-  - This will install all the necessary npm modules, and get your site running live at http://0.0.0.0:8080/
 
-9. (Optional) If you later want to export the content you have created into a json file to be re-used, use command: `contentful space export`
+Your site is running at: http://localhost:8080/
 
-Summary of npm commands:
 
-`npm start` - run production server
-`npm run next` - start dev env
-`npm run next-express` - start dev env with express so that routes work
+## Optionally export data
 
-### Next Steps:
-
-- Read through the other [contents](/README.md) for further set up and information
-
-- Interested in setting up Kubernetes? Here are the commands we at Edenspiekermann use. You probably need to adapt them to your config:
+If you later want to export the content you have created into a json file to be re-used, use:
 
 ```
-kubectl apply -f kubernetes/namespace.yml
-kubectl apply -f kubernetes/webserver-service.yml
-kubectl apply -f kubernetes/production-webserver-deployment.yml
-kubectl apply -f kubernetes/staging-ingress.yml
+contentful space export
 ```
+
+## Summary of npm scripts
+
+Run production server:
+```
+npm start
+```
+
+Start live reloading development environment:
+```
+npm run next
+```
+
+Start live reloading dev environemnt with express server so that routes and
+reloading a page will work:
+```
+npm run next-express
+```
+
+# Next Steps:
+
+- Read through the other [content](/README.md) for further set up and information
+
