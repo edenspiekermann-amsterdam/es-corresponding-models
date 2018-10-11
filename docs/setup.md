@@ -1,7 +1,7 @@
 # Setup
 
-This part will get you up and running. Setup the Content Model on Contentful
-using Migrations and get the demo server listening on http://localhost:8080.
+This part will get you up and running. Setup the Contentful models using
+Migrations and get the demo server listening on http://localhost:8080.
 
 ## Contentful account
 
@@ -9,7 +9,8 @@ Sign up for a free account at Contentful:
 
 https://www.contentful.com/
 
-Once you've completed free registration, click top left to add a new space.
+Once you've completed free registration, add a new space. (At the time of
+writing you do this by clicking top left on the logo).
 
 Choose for a free space and set it up being empty.
 
@@ -19,50 +20,64 @@ Choose for a free space and set it up being empty.
 The demo code needs an API key to access Contentful. You can find this
 information at Settings -> API Keys on the Contentful website.
 
-No keys will be present if you just signed up. Adding a new API key is
-as simple as pressing the buttun. Doing so will present you with some
-details we need for this demo:
+No keys will be present if you just signed up. Adding a new API key is as simple
+as pressing a button. Doing so will present you with the required details for
+this demo:
 
 - Space ID
 - Content Delivery API - access token
 - Environment id
 
-For this demo secrets are stored in a file in the repository. In a production
-environment you should move these keys to a safer place.
+Copy the template [secrets-template.js](/src/contentful/secrets-template.js) and
+name the new file [secrets.js](/src/contentful/secrets.js)
 
-Have a look at [secrets-template.js](/src/contentful/secrets-template.js). , put
-in the details here and save the file.
+Fill in the details and save the file.
+
 
 ## Contentful cli
 
-Install the Contentful command line:
+To be able to create our Contentful models from javascript (called migrations),
+we need to install the Contentful cli:
 
-https://github.com/contentful/contentful-cli
+```
+npm install -g contentful-cli
+```
+
+This is well documented here: https://github.com/contentful/contentful-cli
 
 
 ## Contentful access
 
-Setup your local machine to allow write access to your new Contentful space with
-these commands:
+The next steps tell the Contentful cli which credentials to use and which
+space to connect to.
 
-This will create a file on your local machine with the API token needed to write
-to your space:
+Note that the secrets here are different from the ones we put in
+[secrets.js](/src/contentful/secrets.js). The ones in
+[secrets.js](/src/contentful/secrets.js) are for reading, while the tokes we add
+here are for writing.
+
+The next command creates a local `~/.contentfulrc.json` with the API token
+needed to write to your space:
 ```
 contentful login
 ```
 
-This allows you to select your new space to use:
+Select a space to use:
 ```
 contentful space use
 ```
 
-This allows you to select the environment eg. master or development:
+Select the environment to use:
 ```
 contentful space environment use
 ```
 
+## Migrations
 
-5. Run migrations using the command: `npm run run-migrations` - this sets up your contentful models.
+Run the migrations that setup our contentful models:
+```
+npm run run-migrations
+```
 
 6. Go to the Content Model menu within Contentful, click on each individual model and click the green `Save` button on the right.
 
