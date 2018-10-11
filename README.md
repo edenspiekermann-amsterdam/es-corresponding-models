@@ -1,9 +1,9 @@
 # Corresponding Models
 
 This repository proofs that working with Contentful and React can be done in a
-very modular way. At Edenspiekermann we activly use the techniques demonstrated
-here to develop designs. Either fully enabled React application as well as
-statically generated sites.
+simple and modular way. At Edenspiekermann we activly use the techniques
+demonstrated here to develop designs. Either fully enabled React application as
+well as statically generated sites.
 
 ## Introduction
 
