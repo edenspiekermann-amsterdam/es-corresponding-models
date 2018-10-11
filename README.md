@@ -20,7 +20,7 @@ projects, and create elegant, well-structured websites with minimal effort.
 
 ## Content
 
-- [Tech stack amd requirements](./docs/tech-stack.md)
+- [Tech stack and requirements](./docs/tech-stack.md)
 - [Get the demo running](./docs/setup.md)
 - [Roadmap](./docs/roadmap.md)
 
