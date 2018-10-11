@@ -1,5 +1,6 @@
 # Tech stack and reqirements
 
+
 ## Stack
 
 - server side rendering: [next.js](https://github.com/zeit/next.js/)
@@ -10,9 +11,15 @@
   components](https://github.com/styled-components/styled-components) and
   [styled system](https://github.com/jxnblk/styled-system)
 
+
 ## Requirements
 
 - Node ^8
 - Free Contentful account
 - https://github.com/contentful/contentful-cli
+
+
+## Next Steps
+
+[Get it up and running](./docs/setup.md)
 

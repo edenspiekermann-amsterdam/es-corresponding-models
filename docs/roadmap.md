@@ -25,3 +25,9 @@
 
 - Better error handling
 - Remove .response key
+
+
+## Next Steps
+
+[Get it up and running](./docs/setup.md)
+

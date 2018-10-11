@@ -72,5 +72,5 @@ your section and run the migration so that the Model gets created in your space.
 
 ## Next Steps
 
-[Get up and running](./docs/setup.md)
+[Get it up and running](./docs/setup.md)
 

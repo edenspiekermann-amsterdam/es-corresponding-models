@@ -141,7 +141,7 @@ reloading a page will work:
 npm run next-express
 ```
 
-# Next Steps:
+## Next Steps:
 
-- Read through the other [content](/README.md) for further set up and information
+- Read the [docs](./architecture/architecture.md) for further set up and information
 
