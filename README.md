@@ -1,9 +1,6 @@
 # Corresponding Models
 
-This repository proofs that working with Contentful and React can be done in a
-simple and modular way. At Edenspiekermann we activly use the techniques
-demonstrated here to develop designs. Either fully enabled React application as
-well as statically generated sites.
+This framework provides a simple and modular workflow for developing with Contentful and React. At Edenspiekermann we actively use this framework to develop both fully enabled React applications and statically generated sites.
 
 
 ## Introduction
@@ -14,7 +11,7 @@ this is by far not a framework yet, we consider it the start of one.
 The framework will enable you to easily create models in Javascript and migrate
 them to your space on [Contentful](https://www.contentful.com/).
 
-This allows for seamlessly moving models and content between envrionments and
+This allows for seamlessly moving models and content between environments and
 projects, and create elegant, well-structured websites with minimal effort.
 
 
@@ -40,10 +37,10 @@ projects, and create elegant, well-structured websites with minimal effort.
 ### Migrations
 
 What is the benefit of using migrations instead of manually creating the models
-on the contentful website?
+on the Contentful website?
 
 Currently the way to create the same model in multiple environments on
-Contenftul is manually through the website. By using migrations in Javascript,
+Contentful is manually through the website. By using migrations in Javascript,
 we avoid having to manually create the models on the Contentful website every
 time we change environments or start a new project.
 
