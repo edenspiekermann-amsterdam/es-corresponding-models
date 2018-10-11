@@ -19,9 +19,9 @@ The response is stored in the `StoreContext` with the layout modelName as key.
 
 ## Model data fetching
 
-Optionally a model can, just like a layout, define a `static query` on the
-layout class to prefetch data. The response is also stored in the `StoreContext`
-with the model modelName as key.
+Optionally a model can, just like a layout, define a `static query` on the layout
+class to prefetch data. The response is also stored in the `StoreContext` with
+the model modelName as key.
 
 Models have more options to fetch data. Fetch info can be added to the
 `routeModels` object defined in `pages/index.js`.
@@ -102,8 +102,7 @@ queryIdFrom: 'HomeLayout.response.components.opener.sys.id',
 
 ### queryParametersFrom
 
-This works with a required `static query` on the model with `clientMethod:
-'getEntries'`.
+This works with a required `static query` on the model with `clientMethod: 'getEntries'`.
 
 The query fields on the model that start with a `:` are replaced with a value
 from the data that is already fetched.

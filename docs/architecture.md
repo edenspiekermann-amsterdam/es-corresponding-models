@@ -69,8 +69,7 @@ See also: [layout data fetching](./fetching-data.md#layout-data-fetching)
 
 ### Models (/src/models)
 
-Each model must always correspond to a Contentful model. Hence the name. There
-are three types of models in the models folder:
+Each model must always correspond to a Contentful model. Hence the name. There are three types of models in the models folder:
 
 1. content
 2. parts
@@ -79,24 +78,17 @@ are three types of models in the models folder:
 To be clear, a layout is also a Contenful model. Layouts are special models
 because they group other models. The responsibility of a Layout model is to
 fetch data and render the containing models. That is why they are treated
-differently and stored elsewhere. Here is a short description of the other 3
-model types:
+differently and stored elsewhere. Here is a short description of the other 3 model types:
 
 ## Sections
-Sections are the building blocks that are used within layouts. If we think of a
-layout as a web page, the sections are the openers, bodies, and footers of the
-page. You can think of them as the paragraphs of the page.
+Sections are the building blocks that are used within layouts. If we think of a layout as a web page, the sections are the openers, bodies, and footers of the page. You can think of them as the paragraphs of the page.
 
 ## Parts
-Parts are smaller components or tools that can be used within a section, such as
-a navigation bar. Parts are loaded from Contentful by using a query that depends
-on a field in the section eg. part ID.
+Parts are smaller components or tools that can be used within a section, such as a navigation bar. Parts are loaded from Contentful by using a query that depends on a field in the section eg. part ID.
 
 ## Content
-This is a future improvement. Content is anything that is not a part or a
-section. Content is loaded from Contentful by using a query that depends on a
-dynamic part in the URL [(slug)](https://yoast.com/slug/). For example, one of
-many articles.
+This is a future improvement.
+Content is anything that is not a part or a section. Content is loaded from Contentful by using a query that depends on a dynamic part in the URL [(slug)](https://yoast.com/slug/). For example, one of many articles.
 
 
 

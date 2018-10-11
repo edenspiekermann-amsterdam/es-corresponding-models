@@ -9,5 +9,5 @@
   components](https://github.com/styled-components/styled-components) and
   [styled system](https://github.com/jxnblk/styled-system)
 - forms: [redux-form](https://github.com/erikras/redux-form/)
-- async / fetch: [Contentful JS
-  Client](https://www.contentful.com/developers/docs/javascript/)
+- async / fetch:
+  [Contentful JS Client](https://www.contentful.com/developers/docs/javascript/)
