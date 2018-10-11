@@ -36,7 +36,7 @@ Fill in the details and save the file.
 
 ## Contentful cli
 
-To be able to create our Contentful models from javascript (called migrations),
+To be able to create our Contentful models from Javascript (called Migrations),
 we need to install the Contentful cli:
 
 ```
@@ -48,13 +48,13 @@ This is well documented here: https://github.com/contentful/contentful-cli
 
 ## Contentful access
 
-The next steps tell the Contentful cli which credentials to use and which
-space to connect to.
+The next steps tell the Contentful cli which credentials to use and which space
+to connect to.
 
 Note that the secrets here are different from the ones we put in
 [secrets.js](/src/contentful/secrets.js). The ones in
-[secrets.js](/src/contentful/secrets.js) are for reading, while the tokes we add
-here are for writing.
+[secrets.js](/src/contentful/secrets.js) are for reading, while the tokens we
+add here are for writing.
 
 The next command creates a local `~/.contentfulrc.json` with the API token
 needed to write to your space:
@@ -81,7 +81,7 @@ npm install
 npm run run-migrations
 ```
 
-Unfortunately there's a manual step involed here because of a bug we haven't
+Unfortunately there's a manual step involved here because of a bug we haven't
 been able to track yet. Bear with us and go to the Content Model menu within
 Contentful. Then click on each individual model and click the green `Save`
 button on the right. Thank you.
@@ -89,36 +89,36 @@ button on the right. Thank you.
 
 ## Load demo content
 
-Within a terminal make sure you are in the root of the repository. Then run this to
-import the demo content:
+Within a terminal make sure you are in the root of the repository. Then run this
+to import the demo content:
 
 ```
 contentful space import --content-file ./contentful-content-file.json
 ```
 
-Check the Contentful web ui to see if some data is there. There's a little
-note here. While it all may seem as if the data was loaded. The contentful
-import tool will import the required models as well. 
+Check the Contentful web UI to see if some data is there.
 
-So even without running the migrations the demo will work. Obviously importing
-models from json is not really the point here.
+A side note: This contentful import tool will import the required models as
+well as the data. So even without running the migrations first, the demo will work. However,
+importing models from json is not what we are aiming for here.
 
 
 ## Run demo server
 
-As expected:
+To run the server, us the commands:
 
 ```
 npm install
 npm run next-express
 ```
 
-Your site is running at: http://localhost:8080/
+Your site is now running at: http://localhost:8080/
 
 
 ## Optionally export data
 
-If you later want to export the content you have created into a json file to be re-used, use:
+If you later want to export the content you have created into a json file to be
+re-used, use:
 
 ```
 contentful space export
@@ -144,5 +144,6 @@ npm run next-express
 
 ## Next Steps:
 
-- Read the [docs](./architecture/architecture.md) for further set up and information
+- Read the [docs](./architecture/architecture.md) for further set up and
+  information
 
