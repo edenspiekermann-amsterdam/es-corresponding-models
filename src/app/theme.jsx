@@ -69,10 +69,9 @@ export const appTheme = {
 
   textStyles: {
     base: {
-      "font-family": "sans",
-      "color": "mineShaft",
       "font-feature-settings": '"pnum" 1, "kern" 1, "liga" 1',
-      "font-smoothing": "antialiased",
+      "-webkit-font-smoothing": "antialiased",
+      "-moz-osx-font-smoothing": "grayscale",
       "font-weight": "normal"
     },
 
@@ -81,8 +80,7 @@ export const appTheme = {
     },
 
     heading: {
-      "font-family": "sans",
-      "font-weight": "normal"
+      "font-weight": "bold"
     },
 
     sectionHeading: {

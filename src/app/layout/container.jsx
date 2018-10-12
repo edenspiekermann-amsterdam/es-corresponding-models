@@ -11,9 +11,6 @@ import {
 } from 'styled-system'
 
 export const Container = styled.div`
-  max-width: 1980px;
-  overflow-x: hidden;
-
   ${alignItems}
   ${display}
   ${flexWrap}
@@ -24,7 +21,7 @@ export const Container = styled.div`
 
 Container.defaultProps = {
   mx: 'auto',
-  px: ['18px', '16px', '24px'],
+  px: ['16px', '20px', '24px'],
   theme: appTheme,
   textStyle: 'base',
 }

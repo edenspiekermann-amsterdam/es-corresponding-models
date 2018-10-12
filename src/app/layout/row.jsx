@@ -23,10 +23,6 @@ import {
 } from 'styled-system'
 
 export const Row = styled(tag)`
-  box-sizing: border-box;
-  display: flex;
-  text-align: center;
-
   ${alignItems}
   ${alignSelf}
   ${color}
@@ -45,8 +41,7 @@ export const Row = styled(tag)`
 `
 
 Row.defaultProps = {
-  flexWrap: 'wrap',
-  mx: ['-18px', '-16px', '-24px'],
+  mx: ['-16px', '-20px', '-24px'],
   theme: appTheme,
 }
 
