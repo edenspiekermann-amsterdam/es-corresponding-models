@@ -21,29 +21,29 @@ export const appTheme = {
   space: [0, 8, 16, 32, 40, 48, 56, 64, 72, 80, 96],
 
   fontSizes: [
-    14, // meta & meta-mobile
-    16, // paragraph small & paragraph small leading mobile
-    18, //h4 mobile & paragraph mobile & paragraph article mobile
-    20, // h4 & paragraph & intro mobile
-    24, // h3 & h2 mobile & intro
-    26, // display mobile
-    28, // h1 mobile
-    30, // h2
-    36, // display
-    42, // h1
+    14, // meta & meta-mobile [0]
+    16, // paragraph small & paragraph small leading mobile [1]
+    18, // h4 mobile & paragraph mobile & paragraph article mobile [2]
+    20, // h4 & paragraph & intro mobile & h3 mobile [3]
+    24, // h3 & h2 mobile & intro [4]
+    26, // display mobile [5]
+    28, // h1 mobile [6]
+    30, // h2 [7]
+    36, // display [8]
+    42, // h1 [9]
   ],
 
   lineHeights: [
-    "22px", // meta leading & meta leading mobile
-    "24px", // paragraph small leading & paragraph small leading mobile
-    "26px", // h4 leading mobile & paragraph leading mobile & paragraph article leading mobile
-    "28px", // h4 leading & paragraph leading & intro leading mobile
-    "32px", // h3 leading & h2 leading mobile & intro leading
-    "34px", // display leading mobile
-    "36px", // h1 leading mobile
-    "40px", // h2 leading
-    "48px", // display leading
-    "56px", // h1 leading
+    "22px", // meta leading & meta leading mobile [0]
+    "24px", // paragraph small leading & paragraph small leading mobile [1]
+    "26px", // h4 leading mobile & paragraph leading mobile & paragraph article leading mobile [2]
+    "28px", // h4 leading & paragraph leading & intro leading mobile & h3 leading mobile [3]
+    "32px", // h3 leading & h2 leading mobile & intro leading [4]
+    "34px", // display leading mobile [5]
+    "36px", // h1 leading mobile [6]
+    "40px", // h2 leading [7]
+    "48px", // display leading [8]
+    "56px", // h1 leading [9]
   ],
 
   colors: {
@@ -74,6 +74,10 @@ export const appTheme = {
       "font-feature-settings": '"pnum" 1, "kern" 1, "liga" 1',
       "font-smoothing": "antialiased",
       "font-weight": "normal"
+    },
+
+    display: {
+      "color": "secondary"
     },
 
     heading: {
