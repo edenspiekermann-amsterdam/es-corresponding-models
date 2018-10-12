@@ -5,7 +5,6 @@ import { ThemeProvider } from 'styled-components'
 
 import { Container } from './layout'
 import { appTheme } from './theme'
-import { Sprite } from './icon/sprite'
 
 import { injectGlobal } from 'styled-components'
 import styledNormalize from 'styled-normalize'
@@ -38,7 +37,6 @@ export class AppMain extends React.Component {
         <StickyContainer>
           <Container>
             {this.props.children}
-            <Sprite key='sprite'/>
           </Container>
         </StickyContainer>
       </ThemeProvider>

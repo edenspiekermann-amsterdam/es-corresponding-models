@@ -12,7 +12,6 @@
 │   └── express.js               - node.js express production server
 └── src
 │   └── app                      - app specific code like theme, store and fonts
-│   |   └── icon                 - themed icon elements like icon and logo
 │   |   └── layout               - themed layout elements like row and column
 │   |   └── typography           - themed typography elements like h1 and text
 |   |

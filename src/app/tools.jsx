@@ -66,22 +66,6 @@ export const contentfulSpacesToView = contentfulSpaces => {
 
 // This helper simply converts huge Contenful section data into a simple
 // object with the details needed
-export const contentfulSocialMediaLinksToView = contentfulLinks => {
-  if (!contentfulLinks) return []
-  const links = []
-  contentfulLinks.forEach(link => {
-    links.push({
-      title: link.fields.title,
-      url: link.fields.url,
-      icon: link.fields.icon,
-    })
-  })
-
-  return links
-}
-
-// This helper simply converts huge Contenful section data into a simple
-// object with the details needed
 export const contentfulServiceReferencesToView = contentfulServiceReferences => {
   if (!contentfulServiceReferences) return []
   const references = []

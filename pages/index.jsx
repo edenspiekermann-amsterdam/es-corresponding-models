@@ -4,17 +4,11 @@ import { AppMain } from '../src/app/main'
 import { getRouteName } from '../src/router/router'
 import { AppHead } from '../src/app/head'
 
-import * as tools from '../src/app/tools'
 import * as contentful from '../src/contentful/contentful'
 
 import { StoreContext } from '../src/app/store'
 
 import { homeModels } from '../src/layouts/layout-home'
-
-import {
-  saveFavouritesToLocalStorage,
-  getFavouritesFromLocalStorage,
-} from '../src/app/favourites'
 
 const routeModels = {
   home: homeModels,
@@ -37,23 +31,9 @@ export default class App extends Component {
     super(props)
 
     this.state = {
-      favourites: getFavouritesFromLocalStorage(),
       layoutName: null,
       Layout: null,
     }
-
-    this.toggleFavourite = this.toggleFavourite.bind(this)
-  }
-
-  toggleFavourite = favouriteId => {
-    const newFavourites = Object.assign({}, this.state.favourites)
-    if (favouriteId in newFavourites) delete newFavourites[favouriteId]
-    else newFavourites[favouriteId] = true
-
-    this.setState({
-      favourites: newFavourites,
-    })
-    saveFavouritesToLocalStorage(newFavourites)
   }
 
   render() {

@@ -2,7 +2,6 @@ import React, {Component, Fragment} from 'react';
 import styled from 'styled-components';
 
 import {H2} from '../../../app/typography'
-import {Link as NextLink} from '../../../router/next-routes';
 
 const MenuContainer = styled.nav`
   position: relative;
@@ -19,8 +18,7 @@ const MenuItem = styled.li`
   padding: 0.5rem;
 
   @media (max-width: 767px) {
-    display: block;
-    font-size: 2rem;
+    font-size: 20;
   }
 `;
 
@@ -41,9 +39,7 @@ export class PartNavigationView extends Component {
 
     const linkList = Array.from(routes).map(route => (
       <MenuItem key={route.sys.id}>
-        <NextLink route={route.fields.id}>
-          <a>{(route.fields.id, route.fields.title)}</a>
-        </NextLink>
+          <a href="/">{(route.fields.title)}</a>
       </MenuItem>
     ));
 

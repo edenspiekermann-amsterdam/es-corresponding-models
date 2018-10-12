@@ -11,7 +11,6 @@ import {
   lineHeight,
   space,
   textStyle,
-  style,
 } from 'styled-system'
 
 // The main feature here is responsive headers without hassle. The major
