@@ -9,9 +9,11 @@ import * as contentful from '../src/contentful/contentful'
 import { StoreContext } from '../src/app/store'
 
 import { homeModels } from '../src/layouts/layout-home'
+import { anotherPageModels } from '../src/layouts/layout-another-page'
 
 const routeModels = {
   home: homeModels,
+  anotherPage: anotherPageModels,
 }
 
 // Generic main app component

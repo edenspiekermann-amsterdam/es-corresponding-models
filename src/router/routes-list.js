@@ -2,6 +2,6 @@
 // Future improvement: build this from a Contentful API call
 
 module.exports.routesList = {
-  'home':              '/',
-  'contact':           '/contact',
-}
+  home: "/",
+  anotherPage: "/another-page"
+};
