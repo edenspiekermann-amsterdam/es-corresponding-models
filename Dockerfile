@@ -1,7 +1,7 @@
 FROM node:8
 
 LABEL description="Docker image for Corresponding models" \
-      maintainer="j.meijer@nl.edenspiekermann.com" \
+      maintainer="t.krooswijk@nl.edenspiekermann.com" \
       version="1.0"
 
 COPY . /home/node/app
